@@ -17,12 +17,13 @@ title: TIL
 email:
 about: I am a software engineer, currently working with Elixir.
 description: >- # this means to ignore newlines until "baseurl:"
-  Today I Learned (TIL) for sharing knwledge.
+  Today I learned (TIL) to share knowledge about Elixir and Web Development.
 url: "til.sergiovp.dev" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 excerpt_separator: "<!-- more -->"
 
 # Build settings
+highlighter: rouge
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
@@ -33,7 +34,6 @@ pagination:
   enabled: true
   per_page: 5
   permalink: "/page/:num/"
-highlighter: rouge
 permalink: /:title
 
 exclude:
