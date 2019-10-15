@@ -1,4 +1,3 @@
-
 ---
 title: Validate file formats in Elixir
 tags:
@@ -9,7 +8,6 @@ layout: post
 You can validate an image by the binary to determine what format is. For example:
 <!-- more -->
 
-```elixir
 ```elixir
 defmodule MyApp.ImageValidation do
 
