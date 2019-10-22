@@ -21,12 +21,14 @@ iex(1)> early_may < late_january
 true
 ```
 
+the result is clearly incorrect.
+
 The rigth way
 
 ```elixir
 iex(39)>  Date.compare(early_may, late_january)
 :gt
-```elixir
+```
 
 `early_may` is greater than `late_january`
 
