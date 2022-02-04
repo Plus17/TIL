@@ -1,6 +1,6 @@
 ---
 title: Map to Keyword list in Elixir
-tags:
+tags: elixir
 desc: How to convert a map into a keyword list with Elixir
 layout: post
 ---
